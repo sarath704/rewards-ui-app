@@ -1,0 +1,58 @@
+{
+  "id": 502321,
+  "num_rows": 1000,
+  "file_format": "json",
+  "name": "Sterllar IT",
+  "array": true,
+  "columns": [
+    {
+      "name": "id",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "name",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "John",
+        "Ram",
+        "Sarath",
+        "Ramesh",
+        "Anusha",
+        "Mythili"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "transactionAmount",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 1000,
+      "decimals": 0,
+      "formula": null
+    },
+    {
+      "name": "rewardPoints",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 100,
+      "decimals": 0,
+      "formula": " if transactionAmount > 100 then ((transactionAmount - 100) * 2) + 50\n elsif transactionAmount > 50 then  transactionAmount - 50\n else 0 end"
+    },
+    {
+      "name": "date",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "12/08/2021",
+      "max": "03/08/2023",
+      "format": "%-m/%-d/%Y",
+      "formula": null
+    }
+  ]
+}
