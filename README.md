@@ -11,5 +11,12 @@ This project involves the preparation of mock data using the Mackaroo website. T
 5. Axios
 6. React-router-dom
 
-##screenshots
+## Screenshots
+
+![All Transactions](https://github.com/sarath704/rewards-ui-app/blob/main/screenshots/all_transactions.png "All Transactions")
+
+![Add new transaction](https://github.com/sarath704/rewards-ui-app/blob/main/screenshots/add_new_transaction.png "Add new transaction")
+![Latest three months data](https://github.com/sarath704/rewards-ui-app/blob/main/screenshots/latest_3months.png "Latest three months data")
+![View transactions By Month](https://github.com/sarath704/rewards-ui-app/blob/main/screenshots/view%20records%20by%20monht.png "View transactions By Month")
+
 
